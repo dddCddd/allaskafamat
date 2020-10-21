@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>Alla Ska Få Mat</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("asset/image/allakafamat.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s2">
+      <a href="#" class="w3-button w3-block w3-black">HEM</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#om" class="w3-button w3-block w3-black">OM OSS</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#hjälp" class="w3-button w3-block w3-black">HJÄLP!</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#bilder" class="w3-button w3-block w3-black">BILDER</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#kontakt" class="w3-button w3-block w3-black">KONTAKT</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#historia" class="w3-button w3-block w3-black">HISTORIA</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">STÖD OSS, HJÄLP OSS!</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px"><br></span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Swisha till 076 702 66 13</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="om">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ALLA SKA FÅ MAT</span></h5>
+    <p><strong>Efter förmåga – utifrån behov – med respekt, kärlek och omtanke.</strong></p>
+    <p>Vi är en ideell förening med namnet ”Alla ska få mat”, med syfte att hjälpa människor i
+    utsatthet. Vi kämpar för att förmedla medmänsklighet och hopp till dem som har det svårt,
+    och vill försöka bidra med den trygghet det innebär att åtminstone inte behöva svälta.</p>
+    
+    <p>Grundtanken är att laga mat och erbjuda till dem som till följd av en osäker tillvaro på
+    arbetsmarknaden eller långvarig sjukdom nu drabbas extra hårt. Vi tror att detta behov bara
+    kommer att öka en tid framöver, och vill därför göra vad vi kan för att stödja, hjälpa och
+    underlätta tillvaron för dem som nu lever under tuffa förhållanden..</p>
+    
+    <img src="asset/image/bild_om.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Hjälp Container -->
+<div class="w3-container" id="hjälp">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">VAD KAN JAG GÖRA?</span></h5>
+    <p><strong>Om jag vill bidra på något sätt!</strong></p>
+    <p>De som har så att de klarar sig och känner att de kan bidra är innerligt välkomna att förmedla
+    det till oss. Det kan vara vad som helst som bidras, så länge det kommer till nytta så blir vi
+    alla glada. Swishar gör du till 076 702 66 13 och skriver ”Alla ska få mat” Vill du erbjuda din
+    tid och dig själv så kan ni meddela det till oss, antingen som sms på samma nummer eller
+    genom vår facebook-sida ”Alla ska få mat.”.
+    Vi samarbetar gärna med andra företag, grupper och organisationer, till exempel grupper
+    som arbetar med matsvinn, restauranger och butiker som har överbliven mat att skänka,
+    second hand-butiker…</p>
+
+    <img src="asset/image/hjalp_del1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <br><br><br>
+    <p><strong>Om jag behöver hjälp!</strong></p>
+    <p>Behöver du hjälp? Ring Joao John John på nummer 076 702 66 13
+    (Vill du ringa från skyddat nummer? Knappa i så fall in #31#I innan telefonnumret.)
+    Vi känner stor respekt för den personliga integriteten och kommer inte att lämna ut några
+    uppgifter om dig eller om din situation.</p>
+    
+    <img src="asset/image/hjalp_del2.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+
+<!-- Instagram Container -->
+<div class="w3-container" id="bilder">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">INSTAGRAM BILDER</span></h5>
+  
+    <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'N2MZjV8Pec-wsLvpE1Mh'});Pixlee.addSimpleWidget({widgetId:'30079'});};</script><script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
+    
+    <!-- Contact/Area Container -->
+<div class="w3-container" id="kontakt" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">KONTAKT
+    </span></h5>
+    <div class="w3-col m11 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Stockholm, Sverige<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 070-415 34 82<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> hej@betydlig.se<br>
+      </div>
+      
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Namn" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Meddelande" required name="Message">
+        <button class="w3-button w3-grey w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SKICKA
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
