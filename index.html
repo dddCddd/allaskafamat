@@ -22,6 +22,13 @@ body, html {
 .menu {
   display: none;
 }
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1{
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
 </style>
 <body>
 
@@ -148,7 +155,7 @@ body, html {
   </div>
 </div>
 
-<!-- Hjälp Container -->
+<!-- Historia Container -->
 <div class="w3-container" id="historia">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">HISTORIA</span></h5>
